@@ -30,3 +30,14 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        # Name of the artifact to upload.
+        # Optional. Default is 'artifact'
+        name: artifact test
+        path:
+        if-no-files-found:
+        retention-days:
+        compression-level:
+        overwrite:
