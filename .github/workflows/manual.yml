@@ -37,7 +37,3 @@ jobs:
         # Optional. Default is 'artifact'
         name: artifact test
         path: artifacts
-        if-no-files-found:
-        retention-days:
-        compression-level:
-        overwrite:
