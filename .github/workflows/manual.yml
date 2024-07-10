@@ -36,7 +36,7 @@ jobs:
         # Name of the artifact to upload.
         # Optional. Default is 'artifact'
         name: artifact test
-        path:
+        path: artifacts
         if-no-files-found:
         retention-days:
         compression-level:
