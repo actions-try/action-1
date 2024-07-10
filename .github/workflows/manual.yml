@@ -30,6 +30,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    - name: Checkout repository
+      uses: actions/checkout@v2
     - name: Print working directory
       run: pwd
     - name: List all files
